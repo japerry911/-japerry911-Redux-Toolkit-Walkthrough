@@ -292,3 +292,5 @@ const fetchUserById = userId => {
   }
 }
 ```
+
+- `createAsyncThunk`

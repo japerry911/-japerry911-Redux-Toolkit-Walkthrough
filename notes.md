@@ -53,5 +53,6 @@ const addTodoAction = {
   payload: 'Buy milk'
 }
 ```
+- **TERMS CONTINUED**
     - `action creators`
       - 

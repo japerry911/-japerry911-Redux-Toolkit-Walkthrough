@@ -53,6 +53,7 @@ const addTodoAction = {
   payload: 'Buy milk'
 }
 ```
-  - **TERMS CONTINUED**
+- **TERMS CONTINUED**
+  - `immutability (contined)`
     - `action creators`
-      - 
+      - a

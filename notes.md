@@ -53,7 +53,15 @@ const addTodoAction = {
   payload: 'Buy milk'
 }
 ```
-- **TERMS CONTINUED**
-  - `immutability (contined)`
-    - `action creators`
-      - a
+- `immutability (contined)`
+  - `action creators`
+    - a function that creates and returns an action object
+      - used so we don't have to write the action object by hand every time
+```javascript
+const addTodo = text => {
+  return {
+    type: 'todos/todoAdded',
+    payload: text
+  }
+}
+```
